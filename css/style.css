@@ -1,0 +1,514 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ////////////////////////////// */
+
+
+.header{
+    background-color: rgb(1, 14, 38);
+    padding: 0  120px;
+    position: relative;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    
+}
+
+.ul-header{
+    display: flex;
+}
+
+.li-header{
+    margin: 0 10px;
+}
+
+.a-header{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.a-header span{
+    color: orangered;
+}
+
+.chat-btn{
+    background-color: orangered;
+    border-radius: 25px;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 5px lightblue;
+}
+
+.p-header{
+    color: antiquewhite;
+    margin: 10px 0;
+}
+
+.h1-header{
+    color: antiquewhite;
+    font-size: 120px;
+}
+
+.prediv-header{
+    position: absolute;
+    top: 270px;
+    right: 560px;
+    color: rgb(165, 151, 134);
+}
+
+.prediv-header span{
+    display: block;
+}
+
+.card-header-1{
+    text-align: center;
+    background-color: white;
+    border: 5px solid rgba(255, 68, 0, 0.532);
+    position: absolute;
+    top: 410px;
+    right: 920px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: 150px;
+}
+
+.card-header-2{
+    text-align: center;
+    background-color: white;
+    border: 5px solid rgba(255, 68, 0, 0.532);
+    position: absolute;
+    top: 560px;
+    right: 420px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: 150px;
+}
+
+
+.card-header p{
+    color: orangered;
+}
+
+.img-header{
+    width: 350px;
+}
+
+.divimg-header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-div-servises{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.first-div-servises p{
+    color: orangered;
+}
+
+.first-div-servises h3{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card-servises{
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-servises-3 , .card-servises-1{
+    background-color: white;
+    border: 1px solid rgba(171, 159, 137, 0.233);
+    padding: 25px;
+    border-radius: 10px;
+    width: 330px;
+}
+
+.card-servises-2{
+    background-color: orangered;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    width: 330px;
+}
+
+.icon-13{
+    color: orangered;
+    font-size: 40px;
+}
+
+.card-servises-1 h4 , .card-servises-3 h4{
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.icon-13-in{
+    color: orangered;
+}
+
+.card-servises-1 ul li , .card-servises-2 ul li , .card-servises-3 ul li{
+    margin: 10px 0px;
+}
+
+.icon-2{
+    font-size: 40px;
+}
+
+.card-servises-2 h4{
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.protfolio{
+    padding: 0px 130px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+}
+
+.protfolio h6{
+    position: relative;
+    color: orangered;
+    margin: 10px 0px;
+}
+
+.protfolio h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.protfolio p{
+    margin: 10px 0px;
+}
+
+.protfolio > a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    width: 160px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 1425px;
+    right: 120px;
+    text-align: center;
+}
+
+.card-protfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-protfolio-in{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-protfolio-in a{
+    text-decoration: none;
+    color: black;
+}
+
+.card-protfolio-in a h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.img-projects{
+    width: 610px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+}
+
+.aboutme{
+    margin-top: 80px;
+    background-color: rgb(1, 14, 38);
+    color: white;
+    padding: 30px 370px;
+    justify-content: center;
+}
+
+.aboutme h5{
+    color: orangered;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutme h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.aboutme h3 span{
+    color: orangered;
+}
+
+.div-aboutme{
+    justify-content: center;
+}
+
+.aboutme p{
+    text-align: start;
+    padding-left: 50px;
+}
+
+.item-aboutme{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.item-aboutme-in{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.item-aboutme-in h5{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.blog-section{
+    margin-top: 60px;
+    padding: 10px 130px;
+    text-align: center;
+}
+
+.blog-section h6{
+    color: orangered;
+}
+
+.blog-section h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.blog a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: start;
+}
+
+.blog a h5{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog a img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.Reviews{
+    padding: 10px 130px;
+    position: relative;
+}
+
+.Reviews h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.next-btn{
+    position: absolute;
+    top: 30px;
+    right: 170px;
+    color: orangered;
+    font-size: 28px;
+}
+
+.prev-btn{
+    position: absolute;
+    top: 30px;
+    right: 220px;
+    color: rgba(67, 61, 51, 0.378);
+    font-size: 28px;
+}
+
+.Reviews-card{
+    margin-top: 45px;
+    display: flex;  
+}
+
+.Reviews-card-1 , .Reviews-card-2{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.516);
+    margin:10px;
+    justify-content: space-between;
+    border-radius: 15px;
+} 
+
+.Reviews-card-text{
+    margin-top: 10px;
+}
+
+.Reviews-card-text img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+
+.Reviews-card-text h5{
+    font-weight: bold;
+    margin: 5px;
+    padding-top: 15px;
+}
+
+.Reviews-card-text p{
+    margin: 5px;
+}
+
+.lets{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.lets h6{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.lets span{
+    color: orangered;
+}
+
+.lets a{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+.lets-h6{
+    margin-bottom: 30px;
+}
+
+.footer{
+    margin-top: 70px;
+    background-color: rgb(1, 14, 38);
+    padding: 20px 100px;
+    position: relative;
+}
+
+.footer h3{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0px;
+}
+
+.footer > a{
+    position: absolute;
+    top: 50px;
+    right: 400px;
+    font-size: 28px;
+}
+
+.footer>a i{
+    color: rgba(198, 181, 181, 0.673);
+}
+
+.footer ul{
+    display: flex;
+}
+
+.footer ul li{
+    margin-left: 15px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
